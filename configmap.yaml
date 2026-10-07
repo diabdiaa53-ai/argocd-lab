@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: diaa-config
+data:
+  APP_NAME: "Diaa ArgoCD App"
+  ENVIRONMENT: "production"
